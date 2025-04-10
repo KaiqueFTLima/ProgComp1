@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 15px 0; /*espaçamento interno de 15px acima e abaixo e 0 esquerda e direita*/
+    font-size: 24px;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex; /*Flex Boxing*/
+    justify-content: space-between; /*Alinhamento na horizontal - espaço entre os links*/
+    align-items: center; /*Alinhamento vertical */
+}
+
+#links-menu {
+    display: flex;
+    gap: 15px; /*Da espaço entre os links*/
+}
+/*Configura o estilo das ancoras que estão dentro do nav*/
+nav a {
+    color: white;
+    text-decoration: none; /*Não faz decoração no link*/
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #005663;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #003d82;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;/*Espaçamento externo de 20px a direita*/
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto; /*20 px em cima e em baixo e automatico na direita e esquerda*/
+    background: white;
+    padding: 20px; /*Espaçamento interno nos 4 lados*/
+    border-radius: 10px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    margin-top: 15rem;
+}
+
+table tr td {
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto; /*Espaçamento 0 em cima e em baixo, e automatico na esquerda e na direita*/
+}
+
+th {
+    text-align: center;
+}
+
+.laranja {
+    background-color: orange;
+}
+
+.azul {
+    background-color: darkblue;
+    color: white;
+}
+
+.preta {
+    background-color: black;
+    color: white;
+}
+
+.roxo {
+    background-color: purple;
+}
+
+.verde {
+    background-color: green;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.emBreve {
+    color: red;
+}
+
+.tabela1 {
+    text-align: center;
+}
+
+.tabela2 {
+    text-align: left;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.campos {
+    margin: 20px;
+}
+
+.tabela2Cursos {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tabelaKits {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(194, 216, 230);
+}
+.tabela3 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tabelaPontuacoes {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(194, 216, 230);
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 280px;
+}
+
+.h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.tabela3S {
+    text-align: center;
+    width: 50%;
+}
+
+.tabelaAvulsos {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(194, 216, 230);
+    width: 80%;
+    margin-left: 80px
+}
+
+.h4Alimentos {
+    text-align: center;
+}
+
+.tabelaImportante{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.h3Tabela4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tabela4 {
+    width: 50%;
+}
+
+.tabelaIntegracao {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabelaCinza {
+    background-color: lightgray;
+}
+
+.fonte {
+    margin-left: 270px;
+    margin-bottom: 100px;
+}
+
+.fonte2 {
+    margin-left: 120px;
+}
